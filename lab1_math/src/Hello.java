@@ -48,8 +48,8 @@ public class Hello {
                 if (j % x.length == 0) {
                     System.out.println(" ");
             }
-            System.out.printf("%20.4f\t", a_1[i][j]);
+            System.out.printf("%8.4f", a_1 [i][j]);
             }
-        }
+        } 
     }
 }
